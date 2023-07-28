@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+header {
+  background-color: hsl(244, 38%, 16%);
+
+  height: 25rem;
+  width: 62rem;
+  display: flex;
+  margin: 100px auto;
+}
+.attribution {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+i {
+  font-style: normal;
+  color: hsl(277, 64%, 61%);
+}
+img {
+  background: hsl(277, 64%, 61%);
+}
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.text {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.stats__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.stats__description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 0.5rem;
+
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
